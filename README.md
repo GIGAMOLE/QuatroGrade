@@ -1,7 +1,6 @@
 ![](/media/intive_3.jpeg)
 
-![](https://jitpack.io/v/gigamole/quatrograde.svg) | [Setup Guide](#setup) | [Report new issue](https://github.com/GIGAMOLE/QuatroGrade/issues/new)
-
+![](https://jitpack.io/v/GIGAMOLE/QuatroGrade.svg) | [Setup Guide](#setup) | [Report new issue](https://github.com/GIGAMOLE/QuatroGrade/issues/new)
 # QuatroGrade
 
 `QuatroGrade` is a beautiful multi color gradient. Basically, it is a 4 vertex gradient.
@@ -31,8 +30,6 @@ Add to the root `build.gradle`:
 allprojects {
     repositories {
         ...
-        jcenter()
-        mavenCentral()
         maven { url 'https://jitpack.io' }
     }
 }
@@ -42,11 +39,11 @@ Add to the package build.gradle:
 
 ```groovy
 dependencies {
-    implementation 'com.github.gigamole:quatrograde:{latest-version}'
+    implementation 'com.github.GIGAMOLE:QuatroGrade:{latest-version}'
 }
 ```
 
-Latest version is: ![](https://jitpack.io/v/gigamole/quatrograde.svg). 
+Latest version is: ![](https://jitpack.io/v/GIGAMOLE/QuatroGrade.svg). 
 
 Also, it is possible to download the latest artifact from the [releases page](https://github.com/GIGAMOLE/QuatroGrade/releases).
 

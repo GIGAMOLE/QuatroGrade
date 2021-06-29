@@ -1,0 +1,2 @@
+com/gigamole/quatrograde/BuildConfig.java
+ com.gigamole.quatrograde.BuildConfig

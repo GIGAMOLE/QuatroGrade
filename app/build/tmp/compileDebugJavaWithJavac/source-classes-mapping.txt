@@ -1,0 +1,14 @@
+com/gigamole/quatrogradesample/databinding/ItemCustomGradeBinding.java
+ com.gigamole.quatrogradesample.databinding.ItemCustomGradeBinding
+com/gigamole/quatrogradesample/BuildConfig.java
+ com.gigamole.quatrogradesample.BuildConfig
+com/gigamole/quatrogradesample/databinding/ActivityDefaultBinding.java
+ com.gigamole.quatrogradesample.databinding.ActivityDefaultBinding
+com/gigamole/quatrogradesample/databinding/ActivityAnimationBinding.java
+ com.gigamole.quatrogradesample.databinding.ActivityAnimationBinding
+com/gigamole/quatrogradesample/databinding/LayoutColorPickerBinding.java
+ com.gigamole.quatrogradesample.databinding.LayoutColorPickerBinding
+com/gigamole/quatrogradesample/databinding/ActivityMainBinding.java
+ com.gigamole.quatrogradesample.databinding.ActivityMainBinding
+com/gigamole/quatrogradesample/databinding/ActivityCustomBinding.java
+ com.gigamole.quatrogradesample.databinding.ActivityCustomBinding

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.gigamole.quatrograde.QuatroGradeView
+            android:id="@+id/default_quatro_grade_view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:qgv_colors="@array/default_colors" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/default_button_top_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Top-left" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/default_button_top_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Top-right" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/default_button_bottom_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Bottom-left" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/default_button_bottom_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Bottom-right" />
+
+        <androidx.constraintlayout.helper.widget.Flow
+            android:id="@+id/default_flow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            app:constraint_referenced_ids="default_button_top_left,default_button_top_right,default_button_bottom_left,default_button_bottom_right"
+            app:flow_horizontalAlign="center"
+            app:flow_horizontalGap="10dp"
+            app:flow_horizontalStyle="packed"
+            app:flow_maxElementsWrap="2"
+            app:flow_verticalAlign="center"
+            app:flow_verticalStyle="packed"
+            app:flow_wrapMode="chain"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/default_quatro_grade_view"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <LinearLayout
+            android:id="@+id/default_layout_orientation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            app:layout_constraintTop_toBottomOf="@id/default_flow">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Vertical orientation" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/default_switch_orientation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

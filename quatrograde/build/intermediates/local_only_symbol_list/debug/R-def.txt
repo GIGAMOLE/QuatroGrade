@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+attr? qgv_bottomColors
+attr? qgv_bottomPositions
+attr? qgv_colors
+attr? qgv_orientation
+attr? qgv_topColors
+attr? qgv_topPositions
+id horizontal
+id vertical
+styleable QuatroGradeView qgv_colors qgv_topColors qgv_topPositions qgv_bottomColors qgv_bottomPositions qgv_orientation

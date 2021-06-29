@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_default.xml",
+        "source": "/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/res/layout/activity_default.xml"
+    },
+    {
+        "merged": "/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_animation.xml",
+        "source": "/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/res/layout/activity_animation.xml"
+    },
+    {
+        "merged": "/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_custom_grade.xml",
+        "source": "/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/res/layout/item_custom_grade.xml"
+    },
+    {
+        "merged": "/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_color_picker.xml",
+        "source": "/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/res/layout/layout_color_picker.xml"
+    },
+    {
+        "merged": "/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_custom.xml",
+        "source": "/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/res/layout/activity_custom.xml"
+    }
+]

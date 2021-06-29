@@ -1,0 +1,3 @@
+rootProject.name = "QuatroGrade"
+include ':app'
+include ':quatrograde'

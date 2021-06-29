@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="default_colors">
+        <item>#5D17DA</item>
+        <item>#DFCB25</item>
+        <item>#E63A75</item>
+        <item>#32D7ED</item>
+    </array>
+
+    <array name="top_colors">
+        <item>#62198F</item>
+        <item>#D32E66</item>
+        <item>#E91E98</item>
+    </array>
+    <array name="bottom_colors">
+        <item>#4ECFC3</item>
+        <item>#009688</item>
+    </array>
+    <string-array name="top_positions">
+        <item>0.0</item>
+        <item>0.5</item>
+        <item>1.0</item>
+    </string-array>
+    <string-array name="bottom_positions">
+        <item>0.35</item>
+        <item>0.80</item>
+    </string-array>
+</resources>

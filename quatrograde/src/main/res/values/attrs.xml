@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="QuatroGradeView">
+        <attr name="qgv_colors" format="reference" />
+        <attr name="qgv_topColors" format="reference" />
+        <attr name="qgv_topPositions" format="reference" />
+        <attr name="qgv_bottomColors" format="reference" />
+        <attr name="qgv_bottomPositions" format="reference" />
+        <attr name="qgv_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

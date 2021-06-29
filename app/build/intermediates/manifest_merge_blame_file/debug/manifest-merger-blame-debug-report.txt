@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gigamole.quatrogradesample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:6:5-33:19
+12        android:allowBackup="false"
+12-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:7:9-36
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.6.0-alpha02] /Users/vasyl.melnyk/.gradle/caches/transforms-2/files-2.1/88ec5b63bf57cee00babe4205783e44d/core-1.6.0-alpha02/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:9:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:10:9-54
+18        android:supportsRtl="true"
+18-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:11:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.QuatroGrade" >
+20-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:12:9-49
+21        <activity
+21-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:15:9-23:20
+22            android:name="com.gigamole.quatrogradesample.MainActivity"
+22-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:16:13-71
+23            android:screenOrientation="portrait" >
+23-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:17:13-49
+24            <intent-filter>
+24-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:18:13-22:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:19:17-69
+25-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:19:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:21:17-77
+27-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:21:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:24:9-26:52
+31            android:name="com.gigamole.quatrogradesample.DefaultExampleActivity"
+31-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:25:13-51
+32            android:screenOrientation="portrait" />
+32-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:26:13-49
+33        <activity
+33-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:27:9-29:52
+34            android:name="com.gigamole.quatrogradesample.CustomExampleActivity"
+34-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:28:13-50
+35            android:screenOrientation="portrait" />
+35-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:29:13-49
+36        <activity
+36-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:30:9-32:53
+37            android:name="com.gigamole.quatrogradesample.AnimationExampleActivity"
+37-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:31:13-53
+38            android:screenOrientation="landscape" />
+38-->/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/src/main/AndroidManifest.xml:32:13-50
+39    </application>
+40
+41</manifest>

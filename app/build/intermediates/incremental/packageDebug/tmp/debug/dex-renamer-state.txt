@@ -1,0 +1,16 @@
+#Tue Jun 29 13:23:18 EEST 2021
+path.4=3/classes.dex
+path.3=1/classes.dex
+path.2=0/classes.dex
+path.1=1/classes.dex
+path.0=classes.dex
+base.4=/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
+base.3=/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.2=/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.1=/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/build/intermediates/dex/debug/mergeLibDexDebug/1/classes.dex
+base.0=/Users/vasyl.melnyk/AndroidStudioProjects/QuatroGrade/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+renamed.4=classes5.dex

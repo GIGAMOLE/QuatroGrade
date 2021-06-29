@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <codes.side.andcolorpicker.hsl.HSLColorPickerSeekBar
+        android:id="@+id/color_picker_hue_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hslMode="hue" />
+
+    <codes.side.andcolorpicker.hsl.HSLColorPickerSeekBar
+        android:id="@+id/color_picker_saturation_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hslMode="saturation" />
+
+    <codes.side.andcolorpicker.hsl.HSLColorPickerSeekBar
+        android:id="@+id/color_picker_lightness_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hslMode="lightness" />
+
+    <codes.side.andcolorpicker.alpha.HSLAlphaColorPickerSeekBar
+        android:id="@+id/color_picker_alpha_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/color_picker_flow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"
+        app:constraint_referenced_ids="color_picker_hue_seek_bar,color_picker_saturation_seek_bar,color_picker_lightness_seek_bar,color_picker_alpha_seek_bar"
+        app:flow_verticalGap="24dp"
+        app:flow_wrapMode="aligned"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/color_picker_button_random_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Random color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/color_picker_flow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

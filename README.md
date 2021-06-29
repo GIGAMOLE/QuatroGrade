@@ -9,7 +9,7 @@
 ![](/media/preview-loop.gif)
 
 Features:  
-- Multi color, or the default 4 corners color gradient `View`.
+- Multi color, or the default 4 corners color gradient `QuatroGradeView`.
 - Changing the orientation of the gradients for better look.
 - Gradient colors dynamic change and animation support.
 - XML and programmatic setup.

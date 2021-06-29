@@ -44,5 +44,6 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
     implementation project(":quatrograde")
+//    implementation 'com.github.GIGAMOLE:QuatroGrade:1.0.0'
     implementation "codes.side:andcolorpicker:0.6.2"
 }

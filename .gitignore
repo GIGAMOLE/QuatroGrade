@@ -4,8 +4,7 @@
 /.idea
 .DS_Store
 /build
-/app/build
-/quatrograde/build
+
 /captures
 .externalNativeBuild
 .cxx

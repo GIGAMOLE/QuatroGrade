@@ -6,7 +6,7 @@
 
 `QuatroGrade` is a beautiful multi color gradient. Basically, it is a 4 vertex gradient.
 
-![](/media/preview.gif)
+![](/media/preview-loop.gif)
 
 Features:  
 - Multi color, or the default 4 corners color gradient `View`.
@@ -48,7 +48,7 @@ dependencies {
 
 Latest version is: ![](https://jitpack.io/v/gigamole/quatrograde.svg). 
 
-Also, it is possible to download the latest artifact from the [releases page](https://github.com/GIGAMOLE/releases).
+Also, it is possible to download the latest artifact from the [releases page](https://github.com/GIGAMOLE/QuatroGrade/releases).
 
 ## Guide
 
@@ -93,7 +93,7 @@ Please, follow the [Sample App](#sample-app) to properly discover these features
 
 ## License
 
-MIT License. See the [LICENSE](https://github.com/GIGAMOLE/blob/main/LICENSE) file for more details.
+MIT License. See the [LICENSE](https://github.com/GIGAMOLE/QuatroGrade/blob/master/LICENSE) file for more details.
 
 ## Credits
 

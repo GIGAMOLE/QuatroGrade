@@ -1,6 +1,7 @@
 ![](/media/intive_3.jpeg)
 
-![](https://jitpack.io/v/GIGAMOLE/QuatroGrade.svg) | [Setup Guide](#setup) | [Report new issue](https://github.com/GIGAMOLE/QuatroGrade/issues/new)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-QuatroGrade-green.svg?style=flat)](https://android-arsenal.com/details/1/8246) | ![](https://jitpack.io/v/GIGAMOLE/QuatroGrade.svg) | [Setup Guide](#setup) | [Report new issue](https://github.com/GIGAMOLE/QuatroGrade/issues/new)
+
 # QuatroGrade
 
 `QuatroGrade` is a beautiful multi color gradient. Basically, it is a 4 vertex gradient.

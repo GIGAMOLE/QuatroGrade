@@ -1,4 +1,4 @@
-![](/media/intive_3.jpeg)
+![](/media/header.png)
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-QuatroGrade-green.svg?style=flat)](https://android-arsenal.com/details/1/8246) | ![](https://jitpack.io/v/GIGAMOLE/QuatroGrade.svg) | [Setup Guide](#setup) | [Report new issue](https://github.com/GIGAMOLE/QuatroGrade/issues/new)
 
@@ -97,13 +97,7 @@ MIT License. See the [LICENSE](https://github.com/GIGAMOLE/QuatroGrade/blob/mast
 
 Special thanks to the [side.codes](https://github.com/side-codes) for the amazing [color picker library](https://github.com/side-codes/andColorPicker). 
 
-Created at [intive](https://intive.com).
-
-![](/media/intive_4.png)
-
 ## Author:
 
 [Basil Miller](https://www.linkedin.com/in/gigamole/)  
 [gigamole53@gmail.com](mailto:gigamole53@gmail.com)
-
-![](/media/intive_2.png)
